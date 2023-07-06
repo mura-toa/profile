@@ -1,0 +1,97 @@
+#home{
+    color: rgb(98, 98, 98);
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;  
+}
+
+#favorite{
+    color: rgb(98, 98, 98);
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#resume{
+    color: black;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#footer-icon{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+#footer-info{
+    color: black;
+    padding: 5px 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Avenir Next";
+}  
+
+.header{
+    background-color: gainsboro;
+    height: 60px; 
+    border-radius: 5px;
+}
+  
+.header-logo{
+    font-size: 25px;
+    float: left;
+    padding: 13px 40px;
+}
+
+.header-list{
+    list-style: none; 
+    float: left;
+    padding: 9px 20px;
+}
+
+.main{
+    background-color: ghostwhite;
+    height: 650px;
+}
+
+.main-title{
+    float: none;
+    padding: 20px 40px;
+}
+
+.main-talk{
+    float: none;
+}
+
+.mygood-lists{
+    padding-left: 0px;
+}
+
+.mygood-list{
+    list-style: none;
+}
+  
+.footer{
+    background-color: gainsboro;
+    height: 60px; 
+    border-radius: 5px;
+}
+
+.footer-logo{
+    float: left;
+    padding: 10px 40px;
+}
+
+.footer-info{
+    font-size: 15px;
+    float: right;
+    padding: 15px 40px;
+}
