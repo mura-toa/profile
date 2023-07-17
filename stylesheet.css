@@ -1,0 +1,61 @@
+/*initialize*/
+body {
+    font-family: "Avenir Next", "Sora";
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: dark;
+    font-weight: 500;
+}
+
+a{
+    color: dark;text-decoration: none;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+/*-----------------*/
+/* header */
+.nav-item{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+/* main */
+.main{
+    background-color: ghostwhite;
+    height: 650px;
+}
+
+.main-title{
+    float: none;
+    padding: 20px 40px;
+}
+
+.main-talk{
+    float: none;
+}
+
+.mygood-lists{
+    padding-left: 20px;
+}
+
+.mygood-list{
+    list-style: style;
+}
+  
+/* footer */
+.footer-top {
+    padding: 50px;
+    background-color: gainsboro;
+}
+
+.footer-icon{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+}
