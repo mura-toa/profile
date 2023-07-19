@@ -2,6 +2,7 @@
 body {
     font-family: "Avenir Next", "Sora";
     line-height: 1.7;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -25,26 +26,23 @@ section {
     padding: 10px 20px;
 }
 
-/* main */
-.main{
-    background-color: ghostwhite;
-    height: 650px;
+/* resume section */
+.resume {
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 50%;
+
 }
 
-.main-title{
-    float: none;
-    padding: 20px 40px;
+.resume h3{
+    padding-top: 50px;
 }
 
-.main-talk{
-    float: none;
+.profile-list{
+    list-style: none;
 }
 
-.mygood-lists{
-    padding-left: 20px;
-}
-
-.mygood-list{
+.quali-list{
     list-style: style;
 }
   
