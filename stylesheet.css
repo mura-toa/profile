@@ -61,7 +61,7 @@ section {
       opacity: 1;
     }
     100% {
-      transform: translateY(calc(70vh - 10px)) translateX(30px);
+      transform: translateY(calc(70vh - 10px)) translateX(0);
       opacity: 1;
     }
 }
