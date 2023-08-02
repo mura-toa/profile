@@ -2,7 +2,9 @@
 body {
     font-family: "Avenir Next", "Sora";
     line-height: 1.7;
+    margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -17,7 +19,7 @@ a{
 section {
     padding-top: 40px;
     padding-bottom: 40px;
-  }
+}
 
 /*-----------------*/
 /* header */
@@ -28,12 +30,40 @@ section {
 
 /* resume section */
 .resume {
-    margin: 0 auto;
-    background-color: aliceblue;
+    margin: 0;
+    background-color: rgb(199, 231, 241);
 }
 
 .resume h3{
     padding-top: 50px;
+}
+
+.snowflakes {
+    position: relative;
+    pointer-events: none;
+    overflow: hidden;
+}
+  
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: snowfall linear infinite;
+    opacity: 0;
+}
+
+@keyframes snowfall {
+    0% {
+      transform: translateY(-10px) translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(calc(70vh - 10px)) translateX(30px);
+      opacity: 1;
+    }
 }
 
 .profile-list{
